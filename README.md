@@ -1,3 +1,7 @@
 # create-patch
 
-yarn && git diff >> a.patch
+yarn && node update-tlds.js
+
+// modify linkify.cjs.js
+
+git diff >> a.patch
