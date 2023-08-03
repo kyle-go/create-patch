@@ -3,7 +3,7 @@ const fs = require('fs');
 const punycode = require('punycode/');
 
 const tldsListUrl = 'https://data.iana.org/TLD/tlds-alpha-by-domain.txt';
-const tldsjs = 'tlds.js';
+const tldsjs = 'cache-tlds.js';
 let tldsListContents = '';
 
 
